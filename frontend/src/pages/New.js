@@ -39,8 +39,8 @@ class New extends Component {
 
   render() {
     return (
-      <form id="new-post" onChange={this.handleSubmit}>
-        <input type="file" name="" id="" onChang={this.handleImageChange} />
+      <form id="new-post" onSubmit={this.handleSubmit}>
+        <input type="file" name="" id="" onChange={this.handleImageChange} />
 
         <input
           type="text"
