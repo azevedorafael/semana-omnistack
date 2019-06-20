@@ -39,8 +39,6 @@ export default class Feed extends Component {
 
     const response = await api.get("posts");
 
-    console.log(response.data);
-
     this.setState({ feed: response.data });
   }
 
